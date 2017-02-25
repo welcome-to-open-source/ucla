@@ -1,0 +1,65 @@
+---
+layout:     default
+title:      UCLA - Welcome to Open Source!
+root_path:  ./
+---
+
+
+<h1>UCLA - Welcome to Open Source!</h1>
+
+<h2>
+  Participants
+  <small>(<a href="https://github.com/welcome-to-open-source/ucla/blob/gh-pages/add_yourself_as_participant.md">add yourself</a>)</small>
+</h2>
+
+<ul class="avatars">
+  {% for participant in site.posts %}
+  <li>
+    <a href="#participant-{{ participant.github }}">
+      <img src="https://github.com/{{ participant.github }}.png?size=120" alt="{{ participant.name }} avatar">
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<div class="participants">
+  <!-- list organizers first -->
+  {% for participant in site.posts %}
+    {% if participant.type == 'organizer' %}
+    <article id="participant-{{ participant.github }}">
+      <img src="https://github.com/{{ participant.github }}.png?size=120" alt="{{ participant.name }} avatar">
+      <h3>{{ participant.name }} (organizer)</h3>
+      <p class="social">
+        <a href="https://github.com/{{ participant.github }}">GitHub</a>
+        {% if participant.twitter %}
+        | <a href="https://github.com/{{ participant.twitter }}">Twitter</a>
+        {% endif %}
+        {% if participant.website %}
+        | <a href="https://github.com/{{ participant.twitter }}">website</a>
+        {% endif %}
+      </p>
+      {{ participant.content }}
+    </article>
+    {% endif %}
+  {% endfor %}
+
+  <!-- list mentors 2nd -->
+  {% for participant in site.posts %}
+    {% if participant.type == 'mentor' %}
+    <article>
+      <h1>{{ participant.name }} (organizer)</h1>
+      {{ participant.content }}
+    </article>
+    {% endif %}
+  {% endfor %}
+
+  <!-- list attendees 3rd -->
+  {% for participant in site.posts %}
+    {% if participant.type == 'attendee' %}
+    <article>
+      <h1>{{ participant.name }} (organizer)</h1>
+      {{ participant.content }}
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>

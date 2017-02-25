@@ -1,0 +1,5 @@
+name: UCLA – Welcome to Open Source!
+github_url: https://github.com/welcome-to-open-source/ucla
+
+# blog posts
+permalink: /:categories/:title.html
