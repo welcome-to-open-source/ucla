@@ -13,8 +13,14 @@
    Working together in teams works great to get to know fellow attendees, learn
    from each other and help the mentors to be available to everyone.
 3. [Add yourself as participant](add_yourself_as_participant.md)
-4. Find an issue to work on with your team
+4. [Find an issue](https://opensource.guide/how-to-contribute/#finding-a-project-to-contribute-to) to work on with your team
 5. Enjoy :)
+
+## Open Source projects and issues for new contributors
+
+- [Hoodie Camp](https://github.com/hoodiehq/camp/issues) – look for the `up for grabs` label.
+
+Maintainers: please add links to contributor-friendly issues above :)
 
 ## About Welcome to Open Source
 
