@@ -12,7 +12,7 @@
 2. Find a team mate.  
    Working together in teams works great to get to know fellow attendees, learn
    from each other and help the mentors to be available to everyone.
-3. Add yourself as participant
+3. [Add yourself as participant](add_yourself_as_participant.md)
 4. Find an issue to work on with your team
 5. Enjoy :)
 
