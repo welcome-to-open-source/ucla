@@ -1,4 +1,4 @@
-# Daily Bruin
+# UCLA
 
 > Welcome to Open Source
 
