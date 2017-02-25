@@ -49,3 +49,8 @@ The only requirement is that you are signed in to your [GitHub account](github.c
 - On the next page, hit the "Create pull request" button
 - ask one of the organizers or mentors to merge your pull request
 - That’s it! Once merged you will automagically appear on [the event’s website](https://welcome-to-open-source.github.io/ucla)
+
+## Questions? Suggestions?
+
+If anything is unclear, [create an issue on the event’s repository](https://github.com/welcome-to-open-source/ucla/issues).
+If you have a suggest to improve the instructions above, [suggest a change](https://github.com/welcome-to-open-source/ucla/blob/master/add_yourself_as_participant.md)
