@@ -19,7 +19,8 @@
 ## Open Source projects and issues for new contributors
 
 - [Hoodie Camp](https://github.com/hoodiehq/camp/issues) – look for the `up for grabs` label.
-- [Babel](https://github.com/babel/babel/labels/beginner-friendly) - beginner-friendly issues
+- [Babel](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Ababel+label%3Abeginner-friendly) - beginner-friendly issues
+- [PouchDB](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Apouchdb+label%3A%22help+wanted%22) - "help wanted" issues
 
 You can also search for issues across all repositories. Good labels to look for are
 [first-timers-only](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only),
