@@ -14,7 +14,7 @@ root_path:  ./
 
 <ul class="avatars">
   {% for participant in site.posts %}
-  <li>
+  <li class="{{ participant.type }}">
     <a href="#participant-{{ participant.github }}">
       <img src="https://github.com/{{ participant.github }}.png?size=120" alt="{{ participant.name }} avatar">
     </a>
@@ -26,9 +26,9 @@ root_path:  ./
   <!-- list organizers first -->
   {% for participant in site.posts %}
     {% if participant.type == 'organizer' %}
-    <article id="participant-{{ participant.github }}">
+    <article id="participant-{{ participant.github }}" class="{{ participant.type }}">
       <img src="https://github.com/{{ participant.github }}.png?size=120" alt="{{ participant.name }} avatar">
-      <h3>{{ participant.name }} (organizer)</h3>
+      <h3>{{ participant.name }} ({{ participant.type }})</h3>
       <p class="social">
         <a href="https://github.com/{{ participant.github }}">GitHub</a>
         {% if participant.twitter %}
@@ -46,8 +46,18 @@ root_path:  ./
   <!-- list mentors 2nd -->
   {% for participant in site.posts %}
     {% if participant.type == 'mentor' %}
-    <article>
-      <h1>{{ participant.name }} (organizer)</h1>
+    <article id="participant-{{ participant.github }}" class="{{ participant.type }}">
+      <img src="https://github.com/{{ participant.github }}.png?size=120" alt="{{ participant.name }} avatar">
+      <h3>{{ participant.name }} ({{ participant.type }})</h3>
+      <p class="social">
+        <a href="https://github.com/{{ participant.github }}">GitHub</a>
+        {% if participant.twitter %}
+        | <a href="https://github.com/{{ participant.twitter }}">Twitter</a>
+        {% endif %}
+        {% if participant.website %}
+        | <a href="https://github.com/{{ participant.twitter }}">website</a>
+        {% endif %}
+      </p>
       {{ participant.content }}
     </article>
     {% endif %}
@@ -56,8 +66,18 @@ root_path:  ./
   <!-- list attendees 3rd -->
   {% for participant in site.posts %}
     {% if participant.type == 'attendee' %}
-    <article>
-      <h1>{{ participant.name }} (organizer)</h1>
+    <article id="participant-{{ participant.github }}" class="{{ participant.type }}">
+      <img src="https://github.com/{{ participant.github }}.png?size=120" alt="{{ participant.name }} avatar">
+      <h3>{{ participant.name }} ({{ participant.type }})</h3>
+      <p class="social">
+        <a href="https://github.com/{{ participant.github }}">GitHub</a>
+        {% if participant.twitter %}
+        | <a href="https://github.com/{{ participant.twitter }}">Twitter</a>
+        {% endif %}
+        {% if participant.website %}
+        | <a href="https://github.com/{{ participant.twitter }}">website</a>
+        {% endif %}
+      </p>
       {{ participant.content }}
     </article>
     {% endif %}
