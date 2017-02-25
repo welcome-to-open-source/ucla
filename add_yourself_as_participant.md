@@ -7,7 +7,7 @@ The only requirement is that you are signed in to your [GitHub account](github.c
 
 ## 1. Create a new file in the `_posts/` directory
 
-- In your browser, open the [`_posts/` folder of this event’s repository](https://github.com/welcome-to-open-source/ucla/tree/master/_posts).
+- In your browser, open the [`_posts/` folder of this event’s repository](https://github.com/welcome-to-open-source/ucla/tree/gh-pages/_posts).
 - Click the "Create new file" button. You should now see an empty text editor.
 - In the text input "Name your file..." enter `2017-02-25-{your github username}.md`,
   where `{your github username}` is your GitHub username. So for example, if your
@@ -26,7 +26,7 @@ The only requirement is that you are signed in to your [GitHub account](github.c
   {a bio about yourself. Tell us why you are interested in Open Source and what you’d like to contribute}
   ```
 
-  As an example, here is how [Gregor’s file](https://raw.githubusercontent.com/welcome-to-open-source/ucla/master/_posts/2017-02-25-gr2m.md) looks like
+  As an example, here is how [Gregor’s file](https://raw.githubusercontent.com/welcome-to-open-source/ucla/gh-pages/_posts/2017-02-25-gr2m.md) looks like
 
   ```
   ---
