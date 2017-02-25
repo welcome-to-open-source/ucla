@@ -59,6 +59,10 @@ h1 {
   margin-left: -140px;
 }
 
+.participants > article > img {
+  width: 120px;
+}
+
 .participants h3,
 .participants .social {
   margin: 0;
