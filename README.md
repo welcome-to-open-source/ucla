@@ -2,8 +2,8 @@
 
 > Welcome to Open Source
 
-📅 Saturday, February 25, 2017 (1:00 PM to 3:00 PM)
-📍 Ackerman, UCLA
+📅 Saturday, February 25, 2017 (1:00 PM to 3:00 PM)  
+📍 Ackerman, UCLA  
 🎫 Self-organised by Daily Bruin
 
 ## Agenda
