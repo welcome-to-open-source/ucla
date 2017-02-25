@@ -57,6 +57,8 @@ h1 {
 .participants img:first-child {
   float: left;
   margin-left: -140px;
+  height: 120px;
+  width: 120px;
 }
 
 .participants h3,
