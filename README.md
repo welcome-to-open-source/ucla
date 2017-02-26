@@ -22,6 +22,7 @@
 - [Babel](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Ababel+label%3Abeginner-friendly) - beginner-friendly issues
 - [PouchDB](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Apouchdb+label%3A%22help+wanted%22) - "help wanted" issues
 - [nteract](https://github.com/search?utf8=%E2%9C%93&q=user%3Anteract+is%3Aissue+is%3Aopen+is%3Anew-contributor-friendly) – new contributer friendly issues
+- [Contributor.ninja](https://contributor.ninja) - aggregates many beginner-friendly issues
 
 You can also search for issues across all repositories. Good labels to look for are
 [first-timers-only](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only),
