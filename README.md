@@ -2,14 +2,14 @@
 
 > Welcome to Open Source
 
-📅 Saturday, February 25, 2017 (1:00 PM to 3:00 PM)  
-📍 Ackerman, UCLA  
+📅 Saturday, February 25, 2017 (1:00 PM to 3:00 PM)
+📍 Ackerman, UCLA
 🎫 Self-organised by Daily Bruin
 
 ## Agenda
 
 1. If you don’t have one yet: [create a GitHub account](https://github.com/join) – it’s free.
-2. Find a team mate.  
+2. Find a team mate.
    Working together in teams works great to get to know fellow attendees, learn
    from each other and help the mentors to be available to everyone.
 3. [Add yourself as participant](add_yourself_as_participant.md)
@@ -21,8 +21,11 @@
 - [Hoodie Camp](https://github.com/hoodiehq/camp/issues) – look for the `up for grabs` label.
 - [Babel](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Ababel+label%3Abeginner-friendly) - beginner-friendly issues
 - [PouchDB](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Apouchdb+label%3A%22help+wanted%22) - "help wanted" issues
-- [nteract](https://github.com/search?utf8=%E2%9C%93&q=user%3Anteract+is%3Aissue+is%3Aopen+is%3Anew-contributor-friendly) – new contributer friendly issues
+- [nteract](https://github.com/search?utf8=%E2%9C%93&q=user%3Anteract+is%3Aissue+is%3Aopen+is%3Anew-contributor-friendly) – new contributor friendly issues
 - [Contributor.ninja](https://contributor.ninja) - aggregates many beginner-friendly issues
+- [logrole][logrole] - a log viewer for your Twilio data
+
+[logrole]: https://github.com/saintpete/logrole/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner-friendly
 
 You can also search for issues across all repositories. Good labels to look for are
 [first-timers-only](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only),
@@ -39,7 +42,7 @@ A new kind of event to help everyone make their first Open Source contribution
 in a friendly environment. Everyone is happy to organise their own chapter.
 Each event consists of
 
-1. A repository at https://github.com/welcome-to-open-source and a person or  
+1. A repository at https://github.com/welcome-to-open-source and a person or
    a team that is organizing.
 2. People who want to contribute to Open Source
 3. People who want to help mentor the new comers
